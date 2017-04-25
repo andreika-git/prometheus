@@ -1,0 +1,12 @@
+You must identify the modifications in this text file.
+These modifications are licensed under the TAPR Open Hardware License.
+
+-----BEGINING OF THE MODIFICATIONS-----
+
+	-2017/04/07 - andreika
+	First Revision 0.010
+	
+	-
+
+
+-----END OF THE MODIFICATIONS-----
