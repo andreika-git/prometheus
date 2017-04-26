@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Prometheus Map</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.maphilight.js"></script>
+<script type="text/javascript" src="js/colResizable-1.6.min.js"></script>
+<script type="text/javascript" src="js/prometheus-map.js"></script>
+
+<style>
+.componentLink { font-size:10px; color:#000000; text-decoration: none; white-space:nowrap; }
+.componentLink:hover { color:#ff0000; text-decoration: underline; }
+#mapdiv { resize: both; overflow:scroll; height:400px }
+#maplinks { resize: vertical; overflow:auto; }
+#mapinfo { height:200px }
+#maptbl { table-layout: fixed; height:100%; }
+</style>
+</head>
+<body>
+<div id="bigdiv"><table id="maptbl" width=100% border=0>
+<tr><td valign="top" rowspan=2 style="border-right: 3px solid #808080;"></div>
+<div id="maplinks"> 
+</div></td>
+<td valign="top" width=70%><div id="mapdiv">
+<img id="mapimg" src="prometheus-pcb-rev0010-photo1.jpg" width="2450" height="1306" class="map" usemap="#map">
+</div>
+</td></tr>
+<tr><td valign="top"><div id="mapinfo">Select a component for more info...</div></td></tr></table></div>
+<map id="map" name="map">
+<script type="text/javascript">
