@@ -14,7 +14,7 @@ Designator,Quantity,Comment,Footprint,Description,Fitted,Supplier 1,Supplier Par
 "C22, C23, C27, C28","4","10p","C0805","Capacitor","","","","","","","Cap"
 "C30, C41, C62, C68","4","1n","C0805","Capacitor","","","","","","","Cap"
 "C33","1","100uF x 10","CAP R2.0-5.0 X 11","Polar Electrolytic Capacitor","","Digi-Key","565-1899-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
-"C35","1","220uF x 35","CAP R5.0-10.0 X 16","Polar Electrolytic Capacitor","","Digi-Key","565-2017-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
+"C35","1","220uF x 50","CAP R5.0-10.0 X 16","Polar Electrolytic Capacitor","","Digi-Key","565-2017-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
 "C44, C46","2","220uF x 16","TANT-D","Polar Tantalum SMT Capacitor","","Digi-Key","399-10429-1-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
 "C45","1","220uF x 16","CAP R2.5-6.3 X 11.5","Polar Electrolytic Capacitor","","Digi-Key","565-1927-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
 "C47","1","1n","C0805","Capacitor","","","","(optional for ADJ-regulator)","","","Cap"
