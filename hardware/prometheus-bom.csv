@@ -1,166 +1,115 @@
-Designator,Quantity,Comment,Footprint,Description,Fitted,Supplier 1,Supplier Part Number 1,Remark,ComponentLink2Description,ComponentLink2URL,LibRef
-
-"C1","1","2.2n","C0805","Capacitor","","","","","","","Cap"
-"C2","1","33n","C0805","Capacitor","","","","","","","Cap"
-"C3","1","10n","C0805","Capacitor","**","","","Adjust to tune low-pass filtering","","","Cap"
-"C4","1","220p","C0805","Capacitor","","","","","","","Cap"
-"C5, C34","2","1u","C0805","Capacitor","","","","","","","Cap"
-"C6, C7, C9, C11, C13, C14, C15, C17, C20, C29, C31, C37, C39, C40, C43, C48, C52, C53, C66, C71","20","100n","C0805","Capacitor","","","","","","","Cap"
-"C8, C24, C32, C36, C38, C49, C50, C51, C56, C60, C61","11","10n","C0805","Capacitor","","","","","","","Cap"
-"C10, C25, C26, C54, C65, C67, C69, C70, C72","9","220n","C0805","Capacitor","","","","","","","Cap"
-"C12, C19, C42, C57, C58, C59, C64, C73","8","2.2u","C0805","Capacitor","","","","","","","Cap"
-"C16, C55","2","22n","C0805","Capacitor","","","","","","","Cap"
-"C18, C21","2","3.3n","C0805","Capacitor","","","","","","","Cap"
-"C22, C23, C27, C28","4","10p","C0805","Capacitor","","","","","","","Cap"
-"C30, C41, C62, C68","4","1n","C0805","Capacitor","","","","","","","Cap"
-"C33","1","100uF x 10","CAP R2.0-5.0 X 11","Polar Electrolytic Capacitor","","Digi-Key","565-1899-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
-"C35","1","220uF x 35","CAP R5.0-10.0 X 16","Polar Electrolytic Capacitor","","Digi-Key","565-2017-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
-"C44, C46","2","220uF x 16","TANT-D","Polar Tantalum SMT Capacitor","","Digi-Key","399-10429-1-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
-"C45","1","220uF x 16","CAP R2.5-6.3 X 11.5","Polar Electrolytic Capacitor","","Digi-Key","565-1927-ND","LowESR","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
-"C47","1","1n","C0805","Capacitor","","","","(optional for ADJ-regulator)","","","Cap"
-"C63","1","10uFx10","TANT-A","Polar Tantalum SMT Capacitor","","Digi-Key","478-4086-1-ND","or put TVS (ESD5Z5.0T1G) instead  ","Datasheet","http://www.kemet.com/kemet/web/homepage/kechome.nsf/vapubfilesname/F3102TA.pdf/$file/F3102TA.pdf","C Pol"
-"C74","1","100n","C0805","Capacitor","True","","","","","","Cap"
-"C75","1","1u","C0805","Capacitor","True","","","","","","Cap"
-"C76","1","10n","C0805","Capacitor","True","","","","","","Cap"
-"D1, D9, D13, D14, D15, D16, D19, D20","8","S1M","SMA","Small Signal Fast Switching Diode","","Digi-Key","S1MFSCT-ND","","Datasheet","http://www.vishay.com/docs/85557/85557.pdf","Diode"
-"D2","1","LED","LED-SM1","Typical YELLOW 1206 LED","","Digi-Key","754-1174-1-ND","ECU Status LED, Vf<3V","","","LED"
-"D3, D7, D22, D23, D26","5","1N4148W","SOD123","Small Signal Fast Switching Diode","","Digi-Key","1N4148WTPMSCT-ND","Alternative: LL4148 (SOD-80)","Datasheet","http://www.vishay.com/docs/85557/85557.pdf","Diode"
-"D4","1","NUP2105LT1G","SOT-23","Dual Line CAN Bus Protector, 3-Pin SOT-23, Pb-Free, Tape and Reel","","Digi-Key","NUP2105LT1GOSCT-ND","","Datasheet","http://www.onsemi.cn/pub_link/Collateral/NUP2105L-D.PDF","NUP2105LT1G"
-"D5, D6, D11, D12, D17, D18, D24, D25","8","BAS70-04","SOT-23","Silicon Schottky Diode, -55 to 125 degC, SOT23, Reel, Green","","Digi-Key","BAS70-04-FDICT-ND","","Datasheet","http://www.infineon.com/dgdl/bas70_bas170series.pdf?folderId=db3a30431400ef68011425f1ca2505e3&fileId=db3a304314dca389011518ad41680e12","D BAS70-04, D BAS70-04, D BAS70-04, D BAS70-04, D BAS70-04, D BAS70-04, BAS70-04, BAS70-04"
-"D8","1","MBRS340","SMC","Schottky Diode","","Digi-Key","MBRS340FSCT-ND","","","","D Schottky"
-"D10","1","P6KE22A","DO-15V","Transient Voltage Suppressor Diode","","Digi-Key","P6KE22AFSCT-ND","","","","D TVS"
-"D21","1","SMAJ22A","SMA","Transient Voltage Suppressor Diode","","Digi-Key","SMAJ22A-FDICT-ND","","","","D TVS"
-"D27","1","SM2T3V3A","DO-216AA","Transient Voltage Suppressor Diode","","Digi-Key","497-7878-1-ND","","","","D TVS"
-"D28","1","BT","LED-SM1","Typical BLUE Or ORANGE 1206 LED","","Digi-Key","754-1943-1-ND","Bluetooth LED, Vf<3V","","","LED"
-"D29","1","SP0503BAHT","SOT-143","Surface Mount TVS Avalanche Diode Array","","Digi-Key","F2715CT-ND","","","","SP0503BAHT"
-"J1","1","DM3AT-SF-PEJM5","CONN-MICROSD-PUSH-PUSH","Secure Digital Card Connector, Type A without Cover; Surface Mount; 9-Position, 1u Au Plating","","Digi-Key","HR1964CT-ND","","","","SD_CARD"
-"J7","1","USB-B","CONN-USB-B","USB Connector Type B","","Digi-Key","ED2982-ND","","","","Conn USB"
-"L1, L2","2","BLM21PG331","L2012","Chip Inductor","","Digi-Key","490-5988-1-ND","","","","Inductor"
-"L3, L4","2","CDRH104RNP-330","L-CDRH104R","Inductor with Ferrite Core","","Digi-Key","308-1433-1-ND","","","","Inductor with Core"
-"L5","1","BLM21PG331","L1206","Chip Inductor","","","","","","","Inductor"
-"P1","1","STLink","HDR1X5","Header, 5-Pin","","","","Serial MCU Programmer Interface (ST-Link V2)","","","Header 1x5"
-"P2","1","WB_EGO","HDR2X3","Header, 3-Pin, Dual row","","","","Wide-Band Oxygen Sensor 6-pin Connector Header","","","Header 2x3"
-"P3","1","BS-5 (CR2032)","BATTERY-HOLDER-2032-V","Battery Holder BS-5","","Digi-Key","BS-5-ND battery","","Datasheet","http://www.geyer-electronic.de/pdfs/qurz/model/Model-KX-K.pdf","Battery"
-"P4","1","MAP","HDR1X3","Header, 3-Pin","","","","MAP Sensor Header for MPX4250A","","","Header 1x3"
-"P5","1","BT_Module","BT_Module_HC-06-4","Bluetooth Module HC-06 based","","","","HC-06 Bluetooth Module (Through-Hole Version) Header","","","BT-HC-06-MOD"
-"P6","1","DRV8825_MOD","DRV8825_Module","DRV8825_Module, 2x8 Pins","","","","Pololu DRV8825 Module Header (Stepper Module Driver)","","","DRV8825_Module"
-"P7","1","25","HDR1X1-BIG2","Regulated 5V Voltage Output (Sensors Power Supply)","","","","V5","","","Pad"
-"P8","1","26","HDR1X1-BIG2","MAP/MAF (Air Pressure/Flow) Sensor Analog Input","","","","MAP","","","Pad"
-"P9","1","27","HDR1X1-BIG2","CLT (Coolant Temp.) Sensor Analog Input","","","","CLT","","","Pad"
-"P10","1","28","HDR1X1-BIG2","TPS (Throttle Position) Sensor Analog Input","","","","TPS","","","Pad"
-"P11","1","29","HDR1X1-BIG2","Generic Sensor Analog Input","","","","INA","","","Pad"
-"P12","1","30","HDR1X1-BIG2","IAT (Intake Air Temp.) Sensor Analog Input","","","","IAT","","","Pad"
-"P13","1","31","HDR1X1-BIG2","Knock Sensor 1 Analog Input","","","","KS_1","","","Pad"
-"P14","1","32","HDR1X1-BIG2","Knock Sensor 2 Analog Input","","","","KS_2","","","Pad"
-"P15","1","33","HDR1X1-BIG2","Serial UART Transmit Output","","","","Tx","","","Pad"
-"P16","1","34","HDR1X1-BIG2","Serial UART Receive Input","","","","Rx","","","Pad"
-"P17","1","36","HDR1X1-BIG2","Stepper Motor Output A2","","","","SM_AO2","","","Pad"
-"P18","1","37","HDR1X1-BIG2","Stepper Motor Output A1","","","","SM_AO1","","","Pad"
-"P19","1","38","HDR1X1-BIG2","Stepper Motor Output B1","","","","SM_BO1","","","Pad"
-"P20","1","39","HDR1X1-BIG2","Stepper Motor Output B2","","","","SM_BO2","","","Pad"
-"P21","1","40","HDR1X1-BIG2","Analog Ground (Sensors)","","","","AGND","","","Pad"
-"P22","1","41","HDR1X1-BIG2","Oxygen Sensor Analog Input / Gauge Output","","","","O2","","","Pad"
-"P23","1","+","HDR1X1-BIG2","Wide-Band Oxygen Sensor Power Supply +12V","","","","WB_V12","","","Pad"
-"P24","1","-","HDR1X1-BIG2","Wide-Band Sensor Ground","","","","WB_GND","","","Pad"
-"P25","1","1","HDR1X1-BIG2","Ignition Output 1","","","","IGN_OUT1","","","Pad"
-"P26","1","2","HDR1X1-BIG2","Ignition Output 2","","","","IGN_OUT2","","","Pad"
-"P27","1","3","HDR1X1-BIG2","Ignition Output 3","","","","IGN_OUT3","","","Pad"
-"P28","1","4","HDR1X1-BIG2","Ignition Output 4","","","","IGN_OUT4","","","Pad"
-"P29","1","5","HDR1X1-BIG2","Ignition Ground","","","","IGN_GND","","","Pad"
-"P30","1","1","HDR1X1-BIG2","Power Supply +12V","","","","V12","","","Pad"
-"P31","1","2","HDR1X1-BIG2","CAN-H Bus","","","","CANH","","","Pad"
-"P32","1","3","HDR1X1-BIG2","Injector Output 1","","","","INJ_OUT1","","","Pad"
-"P33","1","4","HDR1X1-BIG2","Injector Output 4","","","","INJ_OUT4","","","Pad"
-"P34","1","5","HDR1X1-BIG2","Injector Output 3","","","","INJ_OUT3","","","Pad"
-"P35","1","6","HDR1X1-BIG2","Injector Output 2","","","","INJ_OUT2","","","Pad"
-"P36","1","7","HDR1X1-BIG2","Oxygen Sensor Heater Output (<2A)","","","","O2H","","","Pad"
-"P37","1","8","HDR1X1-BIG2","Tachometer Signal Output","","","","TACH","","","Pad"
-"P38","1","9","HDR1X1-BIG2","Electro Cooling Fan Output","","","","ECF","","","Pad"
-"P39","1","10","HDR1X1-BIG2","Power Main Relay Control Output","","","","PWR","","","Pad"
-"P40","1","11","HDR1X1-BIG2","Generic Output 2","","","","OUT2","","","Pad"
-"P41","1","12","HDR1X1-BIG2","Check Engine Signal Output","","","","CE","","","Pad"
-"P42","1","13","HDR1X1-BIG2","Starter Blocking Relay Control Output","","","","STBL","","","Pad"
-"P43","1","14","HDR1X1-BIG2","Generic Output 1","","","","OUT1","","","Pad"
-"P44","1","15","HDR1X1-BIG2","Fuel Pump Relay Control Output","","","","FPMP","","","Pad"
-"P45","1","16","HDR1X1-BIG2","Power Ground (Connect to the body)","","","","PGND","","","Pad"
-"P46","1","17","HDR1X1-BIG2","CAN-L Bus","","","","CANL","","","Pad"
-"P47","1","19","HDR1X1-BIG2","Injector Ground","","","","INJ_GND","","","Pad"
-"P48","1","22","HDR1X1-BIG2","Ignition Switch Voltage Analog Input","","","","VIGN","","","Pad"
-"P49","1","23","HDR1X1-BIG2","Generic Digital Input 1","","","","IN1","","","Pad"
-"P50","1","24","HDR1X1-BIG2","Generic Digital Input 2","","","","IN2","","","Pad"
-"P51","1","42","HDR1X1-BIG2","Camshaft Sensor Positive Input","","","","CKPS2+","","","Pad"
-"P52","1","43","HDR1X1-BIG2","Camshaft Sensor Negative Input","","","","CKPS2-","","","Pad"
-"P53","1","44","HDR1X1-BIG2","Crankshaft Sensor Negative Input","","","","CKPS1-","","","Pad"
-"P54","1","45","HDR1X1-BIG2","Crankshaft Sensor Positive Input","","","","CKPS1+","","","Pad"
-"P55","1","Reserved1","HDR1X1","Pad","","","","","","","Pad"
-"Q1, Q6, Q7, Q8, Q9, Q10, Q11, Q12","8","VND5N07","DPAK","OMNIFET Protected Power MOSFET","","Digi-Key","497-2481-5-ND","Alternative: VND14NV04","Datasheet","http://www.st.com/resource/en/datasheet/vnd5n07-e.pdf","MOSFET-n"
-"Q2, Q3, Q4, Q5","4","VND14NV04","DPAK","OMNIFET Protected Power MOSFET","","Digi-Key","497-11687-1-ND","","Datasheet","http://www.st.com/resource/en/datasheet/vnb14nv04.pdf","MOSFET-n"
-"Q13","1","MJD340TF","DPAK","NPN General-purpose Transistor","","Digi-Key","MJD340TFCT-ND","","Datasheet","http://www.mouser.com/ds/2/149/MJD340-889508.pdf","BJT-NPN"
-"Q14","1","BC817","SOT-23","NPN General-purpose Transistor","","Digi-Key","BC817-40LT3GOSCT-ND","","Datasheet","http://www.semiconductors.philips.com/acrobat/datasheets/BC846_BC847_BC848_5.pdf","BJT-NPN"
-"Q15, Q16, Q17, Q18","4","BIP373","TO-220AB-2","Ignition Coil Protected Driver","","Bosch","0271130115","Bosch 30115. Requires mica insulator!","Datasheet","https://github.com/andreika-git/prometheus/raw/master/pdf/BIP373.pdf","BJT-NPN"
-"R1","1","1k","R0805","Resistor","**","","","Adjust to set LED brightness","","","Res"
-"R2, R23, R38, R43, R71, R89, R90, R91, R92, R97, R117, R119, R121, R124","14","68k","R0805","Resistor","","","","","","","Res"
-"R3, R65, R80, R81, R82, R84, R110, R111","8","510","R0805","Resistor","","","","","","","Res"
-"R4, R73, R93, R94, R95, R96, R120, R122, R125","9","1k","R1206","Resistor","","","","","","","Res"
-"R5","1","160","R0805","Resistor","","","","","","","Res"
-"R6, R13","2","100k","R0805","Resistor","","","","","","","Res"
-"R7, R9, R10, R17, R19, R21, R24, R26, R31, R37, R41, R42, R83, R102, R139, R140","16","10k","R0805","Resistor","","","","","","","Res"
-"R8","1","0","R0805","Resistor","","","","SD card EMI filtering resistor","","","Res"
-"R11, R48, R59, R72, R77, R88, R105","7","100","R0805","Resistor","","","","","","","Res"
-"R12","1","120","R1206","Resistor","","","","CAN bus terminator (optional)","","","Res"
-"R14","1","61.9","R0805","Resistor","","","","","","","Res"
-"R15","1","1k","R0805","Resistor","**","","","Adjust to tune low-pass filtering","","","Res"
-"R16","1","0","R1206","Resistor","**","","","","","","Res"
-"R18","1","4.7k","R0805","Resistor","","","","","","","Res"
-"R20, R22","2","6.8k","R0805","Resistor","","","","","","","Res"
-"R25","1","5.1k","R0805","Resistor","","","","","","","Res"
-"R27, R35, R47, R57, R138, R144, R145, R147","8","330","R1206","Resistor","","","","","","","Res"
-"R28, R36, R46, R52","4","68k","R1206","Resistor","","","","","","","Res"
-"R29","1","82.5","R0805","Resistor","**","","","82.5 for LSU4.2 or 200 for LSU4.9","","","Res"
-"R30","1","10k","R0805","Resistor","**","","","10k for LSU4.2 or 31.6k for LSU4.9","","","Res"
-"R32, R34, R45","3","470k","R0805","Resistor","","","","","","","Res"
-"R33, R115, R116","3","1k","R0805","Resistor","","","","","","","Res"
-"R39, R40, R61, R62, R64, R66, R98, R103, R106, R107, R108, R118","12","1k","R0805","Resistor","","Digi-Key","P1.0KDACT-ND","0.1% precise series <50ppm","","","Res"
-"R44, R58, R74, R101","4","510k","R0805","Resistor","","","","","","","Res"
-"R49, R60, R69, R76, R78, R87, R104, R133, R134","9","10k","R1206","Resistor","","","","","","","Res"
-"R50","1","0.1","R0805","Resistor","","","","NetTie: Can be 0","","","Res"
-"R51, R63, R67, R79, R85, R109","6","2.7k","R1206","Resistor","","","","(optional pull-up)","","","Res"
-"R53, R55, R56","3","10k","R0805","Resistor","","","","(optional)","","","Res"
-"R54","1","1M","R0805","Resistor","","","","(optional for osc stability)","","","Res"
-"R68","1","0","R0805","Resistor","","","","0 for 5.0V fixed regulator; 3.16k 1% for ADJ","","","Res"
-"R70","1","1.02k","R0805","Resistor","","","","1% (optional - only for ADJ regulator)","","","Res"
-"R75, R100, R131, R132","4","510k","R1206","Resistor","","","","","","","Res"
-"R86","1","1MO","R0805","Resistor","","","","","","","Res"
-"R99, R112","2","0.1","R0805","Resistor","","","","","","","Res"
-"R113, R114, R142, R143","4","100","R1206","Resistor","","","","","","","Res"
-"R123","1","5.1","R0805","Resistor","","","","","","","Res"
-"R126, R128","2","0","R1206","Resistor","**","","","Set non-zero for voltage divider","","","Res"
-"R127","1","2k","R0805","Resistor","","","","1%","","","Res"
-"R129, R130","2","10k","R1206","Resistor","","","","(optional pull-up)","","","Res"
-"R135","1","33k","R0805","Resistor","","","","","","","Res"
-"R136","1","51k","R0805","Resistor","","","","","","","Res"
-"R137","1","10k","R0805","Resistor","","","","1%","","","Res"
-"R141, R146","2","5k","R0805","Resistor","","","","(optional)","","","Res"
-"R148","1","1k","R0805","Resistor","**","","","Adjust to set LED brightness  ","","","Res"
-"R149, R150, R151, R152, R155, R156, R159, R160","8","5k","R1206","Resistor","","","","","","","Res"
-"R153","1","0","R1206","Resistor","","","","NetTie or EMI filter","","","Res"
-"R154, R162, R163","3","1k","R1206","Resistor","","","","(optional pull-down)","","","Res"
-"R157, R158, R161","3","1k","R1206","Resistor","","","","(optional pull-up)","","","Res"
-"R164","1","47","R0805","Resistor","True","","","","","","Res"
-"U1","1","SN65HVD230D","SO8","3.3V CAN Transceiver with Standby Mode, 17 mA, -40 to 85 degC, 8-pin SOIC (D), Green (RoHS & no Sb/Br)","","Digi-Key","SN65HVD230D-ND","","","","SN65HVD230D"
-"U2","1","CJ125","SOIC24","Wide-Band Oxygen Sensor Interface IC","","Bosch","1267379259","Bosch 30481","Datasheet","https://github.com/andreika-git/prometheus/raw/master/pdf/CJ125.pdf","CJ125"
-"U3","1","TPIC8101","SOIC20","Engine Knock Signal Processor","","Digi-Key","296-34575-5-ND","","","","HIP9011"
-"U4, U9","2","MCP6004T-I/ST","TSSOP14","1 MHz, Low-Power Op Amp","","Digi-Key","MCP6004T-I/STCT-ND","","","","MCP6004"
-"U5","1","STM32F405RGT6","LQFP64","ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB Internal RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC, Tray","","Digi-Key","497-11767-ND","(Optional, populate instead of U5_2 (F469))","Datasheet","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf","STM32F405RGT6"
-"U5_2","1","STM32F469VIT6","LQFP100","ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB Internal RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC, Tray","","Digi-Key","497-16782-ND","","","","STM32F469VIT6"
-"U6","1","LP2950CDT-3.3","DPAK","Series of Adjustable Micropower Voltage Regulators, 3-pin TO-252","","Digi-Key","LP2950CDT-3.3GOS-ND","","Datasheet","http://www.national.com/ds/LP/LP2950.pdf","LP2950CDT-3.3"
-"U7","1","LP2950CDT-5.0","TD03B_N","Series of Adjustable Micropower Voltage Regulators, 3-pin TO-252","","Digi-Key","LP2950CDT-5.0GOS-ND","(Optional, populate instead of U8)","Datasheet","http://www.national.com/ds/LP/LP2950.pdf","LP2950CDT-5.0"
-"U8","1","MIC4576-5.0","D2PAK-5","SIMPLE SWITCHER® 3A Step-Down Voltage Regulator, 5-pin TO-263","","Digi-Key","576-1800-5-ND","Alternatives: LM25x6-5.0/ADJ, MIC4576WU","","","LM2576S-5.0"
-"U10","1","DRV8825","HTSSOP28","Stepper Motor Controller IC","","Digi-Key","296-29503-1-ND","","","","DRV8825"
-"U11","1","74HCT04","SOIC14","6 Hex Inverters","","Digi-Key","296-1205-1-ND","","","","74HC04"
-"U12","1","MAX9926UAEE","QSOP16","Dual-Channel, Variable Reluctance Sensor Interface with No Low Power Shutdown, 4.5 to 5.5 V, -40 to 125 degC, 16-Pin SOP (E16+1), Pb-Free","","Digi-Key","MAX9926UAEE+-ND","","Datasheet","http://datasheets.maximintegrated.com/en/ds/MAX9924-MAX9927.pdf","MAX9926"
-"U13","1","CP2102-GM","QFN28","Single-Chip USB to UART Bridge, 1024 Bytes EEPROM, -40 to 85 degC, 28-pin QFN, Tube","","Digi-Key","336-1160-5-ND","","Datasheet","http://www.silabs.com/Support%20Documents/TechnicalDocs/CP2102-9.pdf","CP2102-GM"
-"U14","1","ADUM1201ARZ","SO8","Dual Channel Digital Isolator, 2.5 KV rms Insulation Rating, 1 Mbps Data Rate, 150 ns Delay, Industrial, 8-pin SOIC (R-8), Tube","","Digi-Key","ADUM1201ARZ-ND","","Datasheet","http://www.analog.com/static/imported-files/data_sheets/ADuM1200_1201.pdf","ADUM1201ARZ"
-"U15","1","HC-06","HC-06","Bluetooth module","","Olimex","BLUETOOTH-SERIAL-HC-06","","Datasheet","https://github.com/andreika-git/prometheus/raw/master/pdf/HC-06.pdf","HC-06"
-"Y1","1","ABM3B-8.0MHz","QUARTZ-ABM3B-HC49","Crystal Oscillator (SMD, TH)","","Digi-Key","535-9721-1-ND","ABM3B-8.000MHZ-10-1-U-T or HC-49","Datasheet","http://www.geyer-electronic.de/pdfs/qurz/model/Model-KX-K.pdf","Quartz"
-"Y2","1","ABM3B-8.0MHz","QUARTZ-ABM3B-HC49-2sided","Crystal Oscillator (SMD, TH)","","Digi-Key","535-9721-1-ND","ABM3B-8.000MHZ-10-1-U-T or HC-49","Datasheet","http://www.geyer-electronic.de/pdfs/qurz/model/Model-KX-K.pdf","Quartz"
+Designator;Q-ty;Value;Footprint;Description;Supplier;Part Number;Remark;Unit Price*;Price
+;;;;;;;;;
+C1;1;2.2n;C0805;Capacitor;;;;;
+C2;1;33n;C0805;Capacitor;;;;;
+C3;1;10n;C0805;Capacitor;;;Adjust to tune low-pass filtering;;
+C4;1;220p;C0805;Capacitor;;;;;
+C5, C34;2;1u;C0805;Capacitor;;;;;
+C6, C7, C9, C11, C13, C14, C17, C20, C29, C31, C37, C39, C40, C43, C48, C52, C53, C66, C71;19;100n;C0805;Capacitor;;;;;
+C8, C24, C32, C36, C38, C49, C50, C51, C56, C60, C61;11;10n;C0805;Capacitor;;;;;
+C10, C25, C26, C54, C65, C67, C69, C70, C72;9;220n;C0805;Capacitor;;;;;
+C12, C19, C42, C57, C58, C59, C64, C73;8;2.2u;C0805;Capacitor;;;;;
+C15;1;33n;C0805;Capacitor;;;;;
+C16, C55;2;22n;C0805;Capacitor;;;;;
+C18, C21;2;3.3n;C0805;Capacitor;;;;;
+C22, C23, C27, C28;4;10p;C0805;Capacitor;;;;;
+C30, C41, C62, C68;4;1n;C0805;Capacitor;;;;;
+C33;1;100uF x 10;CAP R2.0-5.0 X 11;Polar Electrolytic Capacitor;Digi-Key;565-1899-ND;LowESR;$0.32;$0.32
+C35;1;220uF x 50;CAP R5.0-10.0 X 16;Polar Electrolytic Capacitor;Digi-Key;565-2017-ND;LowESR;$0.73;$0.73
+C44, C46;2;220uF x 16;TANT-D;Polar Tantalum SMT Capacitor;;399-10429-1-ND;LowESR;$1.97;$3.94
+C45;1;220uF x 16;CAP R2.5-6.3 X 11.5;Polar Electrolytic Capacitor;Digi-Key;565-1927-ND;LowESR;$0.40;$0.40
+C47;1;1n;C0805;Capacitor;;;(optional for ADJ-regulator);;
+C63;1;10uFx10;TANT-A;Polar Tantalum SMT Capacitor;Digi-Key;478-4086-1-ND;or put TVS (ESD5Z5.0T1G) instead;$0.50;$0.50
+C74;1;100n;C0805;Capacitor;;;;;
+C75;1;1u;C0805;Capacitor;;;;;
+C76;1;10n;C0805;Capacitor;;;;;
+D1, D9, D13, D14, D15, D16, D19, D20;8;S1M;SMA;Small Signal Fast Switching Diode;Digi-Key;S1MFSCT-ND;;$0.31;$2.48
+D2;1;LED;LED-SM1;Typical YELLOW 1206 LED;Digi-Key;754-1174-1-ND;Vf<3V;$0.48;$0.48
+D3, D7, D22, D23, D26;5;1N4148W;SOD123;Small Signal Fast Switching Diode;Digi-Key;1N4148WTPMSCT-ND;Alternative: LL4148 (SOD-80);$0.14;$0.70
+D4;1;NUP2105LT1G;SOT-23;Dual Line CAN Bus Protector, 3-Pin;Digi-Key;NUP2105LT1GOSCT-ND;;$0.44;$0.44
+D5, D6, D11, D12, D17, D18, D24, D25;8;BAS70-04;SOT-23;Silicon Schottky Diode, -55 to 125 degC;Digi-Key;BAS70-04-FDICT-ND;;$0.26;$2.08
+D8;1;MBRS340;SMC;Schottky Diode;Digi-Key;MBRS340FSCT-ND;;$0.59;$0.59
+D10;1;P6KE22A;DO-15V;Transient Voltage Suppressor Diode;Digi-Key;P6KE22AFSCT-ND;;$0.43;$0.43
+D21;1;SMAJ22A;SMA;Transient Voltage Suppressor Diode;Digi-Key;SMAJ22A-FDICT-ND;;$0.41;$0.41
+D27;1;SM2T3V3A;DO-216AA;Transient Voltage Suppressor Diode;Digi-Key;497-7878-1-ND;;$0.64;$0.64
+D28;1;BT;LED-SM1;Typical ORANGE 1206 LED;Digi-Key;754-1943-1-ND;Vf<3V, Bluetooth LED;$0.61;$0.61
+D29;1;SP0503BAHT;SOT-143;SMT TVS Avalanche Diode Array;Digi-Key;F2715CT-ND;;$0.88;$0.88
+J1;1;DM3AT-SF-PEJM5;CONN-MICROSD-PUSH-PUSH;Secure Digital Card Connector, SMT, 9p;Digi-Key;HR1964CT-ND;;$2.88;$2.88
+J7;1;USB-B;CONN-USB-B;USB Connector Type B;Digi-Key;ED2982-ND;;$0.58;$0.58
+L1, L2, L5;3;BLM21PG331;L2012;Chip Inductor;Digi-Key;490-5988-1-ND;;$0.12;$0.36
+L3, L4;2;CDRH104RNP-330;L-CDRH104R;Inductor with Ferrite Core;Digi-Key;308-1433-1-ND;;$1.67;$3.34
+P3;1;BS-5 (CR2032);BATTERY-HOLDER-2032-V;Battery Holder BS-5;Digi-Key;BS-5-ND;;$0.86;$0.86
+Q1, Q6, Q7, Q8, Q9, Q10, Q11, Q12;8;VND5N07;DPAK;OMNIFET Protected Power MOSFET;Digi-Key;497-2481-5-ND;Alternative: VND14NV04;$1.85;$14.80
+Q2, Q3, Q4, Q5;4;VND14NV04;DPAK;OMNIFET Protected Power MOSFET;Digi-Key;497-11687-1-ND;;$2.11;$8.44
+Q13;1;MJD340TF;DPAK;NPN General-purpose Transistor;Digi-Key;MJD340TFCT-ND;;$0.55;$0.55
+Q14;1;BC817;SOT-23;NPN General-purpose Transistor;Digi-Key;BC817-40LT3GOSCT-ND;;$0.12;$0.12
+Q15, Q16, Q17, Q18;4;BIP373;TO-220AB-2;Ignition Coil Protected Driver;Bosch;0271130115;Bosch 30115;$3.15;$12.60
+R1;1;1k;R0805;Resistor;;;Adjust to set LED brightness;;
+R2, R23, R38, R43, R71, R89, R90, R91, R92, R97, R117, R119, R121, R124;14;68k;R0805;Resistor;;;;;
+R3, R65, R80, R81, R84, R110, R111;7;510;R0805;Resistor;;;;;
+R4, R73, R93, R94, R95, R96, R120, R122, R125;9;1k;R1206;Resistor;;;;;
+R5;1;160;R0805;Resistor;;;;;
+R6, R13;2;100k;R0805;Resistor;;;;;
+R7, R9, R10, R17, R19, R21, R24, R26, R31, R37, R41, R42, R83, R102, R139, R140;16;10k;R0805;Resistor;;;;;
+R8;1;0;R0805;Resistor;;;SD card EMI filtering resistor;;
+R11, R48, R59, R72, R77, R88, R105;7;100;R0805;Resistor;;;;;
+R12;1;120;R1206;Resistor;;;CAN bus terminator (optional);;
+R14;1;61.9;R0805;Resistor;;;;;
+R15;1;1k;R0805;Resistor;;;Adjust to tune low-pass filtering;;
+R16;1;0;R1206;Resistor;;;;;
+R18;1;4.7k;R0805;Resistor;;;;;
+R20, R22;2;6.8k;R0805;Resistor;;;;;
+R25;1;5.1k;R0805;Resistor;;;;;
+R27, R35, R47, R57, R138, R144, R145, R147;8;330;R1206;Resistor;;;;;
+R28, R36, R46, R52;4;68k;R1206;Resistor;;;;;
+R29;1;82.5;R0805;Resistor;;;82.5 for LSU4.2 or 200 for LSU4.9;;
+R30;1;10k;R0805;Resistor;;;10k for LSU4.2 or 31.6k for LSU4.9;;
+R32, R34, R45;3;470k;R0805;Resistor;;;;;
+R33, R115, R116;4;1k;R0805;Resistor;;;;;
+R39, R40, R61, R62, R64, R66, R98, R103, R106, R107, R108, R118;12;1k;R0805;Resistor;Digi-Key;P1.0KDACT-ND;0.1% precise series <50ppm;$0.41;$4.92
+R44, R58, R74, R101;4;510k;R0805;Resistor;;;;;
+R49, R60, R69, R76, R78, R87, R104, R133, R134;9;10k;R1206;Resistor;;;;;
+R50;1;0.1;R0805;Resistor;;;NetTie: Can be 0;;
+R51, R63, R67, R79, R85, R109;6;2.7k;R1206;Resistor;;;(optional pull-up);;
+R53, R55, R56;3;10k;R0805;Resistor;;;(optional);;
+R54;1;1M;R0805;Resistor;;;(optional for osc stability);;
+R68;1;0;R0805;Resistor;;;"0 for 5.0V fixed regulator; 3.16k 1% for ADJ";;
+R70;1;1.02k;R0805;Resistor;;;1% (optional - only for ADJ regulator);;
+R75, R100, R131, R132;4;510k;R1206;Resistor;;;;;
+R82;1;510;R0805;Resistor;;;;;
+R86;1;1MO;R0805;Resistor;;;;;
+R99, R112;2;0.1;R0805;Resistor;;;;;
+R113, R114, R142, R143;4;100;R1206;Resistor;;;;;
+R123;1;5.1;R0805;Resistor;;;;;
+R126, R128;2;0;R1206;Resistor;;;Set non-zero for voltage divider;;
+R127;1;2k;R0805;Resistor;;;1%;;
+R129, R130;2;10k;R1206;Resistor;;;(optional pull-up);;
+R135;1;33k;R0805;Resistor;;;;;
+R136;1;51k;R0805;Resistor;;;;;
+R137;1;10k;R0805;Resistor;;;1%;;
+R141, R146;2;5k;R0805;Resistor;;;(optional);;
+R148;1;220;R0805;Resistor;;;Adjust to set LED brightness;;
+R149, R150, R151, R152, R155, R156, R159, R160;8;5k;R1206;Resistor;;;;;
+R153;1;0;R1206;Resistor;;;NetTie or EMI filter;;
+R154, R162, R163;3;1k;R1206;Resistor;;;(optional pull-down);;
+R157, R158, R161;3;1k;R1206;Resistor;;;(optional pull-up);;
+R164;1;47;R0805;Resistor;;;;;
+U1;1;SN65HVD230D;SO8;3.3V CAN Transceiver with Standby Mode, 17 mA, -40 to 85 degC, 8-pin SOIC;Digi-Key;SN65HVD230D-ND;;$2.66;$2.66
+U2;1;CJ125;SOIC24;Lambda Probe Interface IC;Bosch;1267379259;Bosch 30481;$3.00;$3.00
+U3;1;TPIC8101;SOIC20;Engine Knock Signal Processor;Digi-Key;296-34575-5-ND;;$5.61;$5.61
+U4, U9;2;MCP6004T-I/ST;TSSOP14;1 MHz, Low-Power Op Amp;Digi-Key;MCP6004T-I/STCT-ND;;$0.45;$0.90
+U5;1;STM32F405RGT6;LQFP64;ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC;Digi-Key;497-11767-ND;(Optional, populate instead of U5_2 (F469));;
+U5_2;1;STM32F469VIT6;LQFP100;ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC;Digi-Key;497-16782-ND;;$9.76;$9.76
+U6;1;NCV4274ADT33RKG;DPAK;Series of Micropower Voltage Regulators, 3-pin TO-252;Digi-Key;NCV4274ADT33RKGOSCT-ND;;$1.79;$1.79
+U7;1;NCV4274ADT50;TD03B_N;Series of Micropower Voltage Regulators, 3-pin TO-252;Digi-Key;NCV4274ADT50RKGOSCT-ND;(Optional, populate instead of U8);;
+U8;1;MIC4576-5.0;D2PAK-5;Step-Down Voltage Regulator, 3A, 200 kHz, 5-pin TO-263;Digi-Key;576-1800-5-ND;Alternatives: LM25x6-5.0/ADJ, MIC4576WU;$3.20;$3.20
+U10;1;DRV8825;HTSSOP28;Stepper Motor Controller IC;Digi-Key;296-29503-1-ND;;$3.93;$3.93
+U11;1;74HCT04;SOIC14;6 Hex Inverters;Digi-Key;296-1205-1-ND;;$0.48;$0.48
+U12;1;MAX9926UAEE;QSOP16;Dual-Channel, Variable Reluctance Sensor Interface, 4.5 to 5.5 V, -40 to 125 degC, 16-Pin SOP;Digi-Key;MAX9926UAEE+-ND;;$9.27;$9.27
+U13;1;CP2102-GM;QFN28;Single-Chip USB to UART Bridge, 1024 Bytes EEPROM, -40 to 85 degC, 28-pin QFN, Tube;Digi-Key;336-1160-5-ND;;$2.91;$2.91
+U14;1;ADUM1201ARZ;SO8;Dual Channel Digital Isolator, 2.5 KV rms Insulation Rating, 1 Mbps Data Rate, 150 ns Delay, Industrial, 8-pin SOIC (R-8);Digi-Key;ADUM1201ARZ-ND;;$3.02;$3.02
+U15;1;HC-06;HC-06;Bluetooth module;Olimex;BLUETOOTH-SERIAL-HC-06;;$2.70;$2.70
+Y1, Y2;2;ABM3B-8.0MHz;QUARTZ-ABM3B-HC49;Crystal Oscillator (SMD, TH);Digi-Key;535-9721-1-ND;ABM3B-8.000MHZ-10-1-U-T or HC-49;$0.69;$1.38
+;;;;;;;;;
+;;;;;;;;$114.61;
+;;;;;;;;;

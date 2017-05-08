@@ -85,7 +85,7 @@ $("document").ready(function(e) {
                 $(this).addClass('selected');
 
 				var html = "<table border=0><tr><td>";
-				var imgUrl = (components[i]["more"] && components[i]["more"]["img"]) ? components[i]["more"]["img"] : "http://www.amwtechusa.com/bmz_cache/7/7c6753843887d6b7e4bcc5e5c5e9a6bb.image.200x200.jpg";
+				var imgUrl = (components[i]["more"] && components[i]["more"]["img"]) ? components[i]["more"]["img"] : "https://raw.githubusercontent.com/andreika-git/prometheus/master/html/img/image_na.jpg";
 				html += "<img src=\"" + imgUrl + "\" width=200 height=200>";
 				html += "</td><td width=370 valign=top><div>";
 				html += "<div>Designator: <b>"+components[i]["name"]+"</b></div>";
@@ -102,7 +102,7 @@ $("document").ready(function(e) {
 						html += "<div>"+(components[i]["supp"])+" Number: <b><a href=\""+(m["url"] ? m["url"] : "#")+"\">"+components[i]["part"]+"</a></b></div>";
 					}
 					if (m["ds"]) {
-						html += "<div><a href=\"" + m["ds"] + "\"><img src=\"http://pdf-datasheet.datasheet.netdna-cdn.com/image/pdf-1.png\" width=32 height=32>" + (m["model"] ? m["model"] : "Datasheet") + "</a></div>";
+						html += "<div><a href=\"" + m["ds"] + "\"><img src=\"https://raw.githubusercontent.com/andreika-git/prometheus/master/html/img/pdf-1.png\" width=32 height=32>" + (m["model"] ? m["model"] : "Datasheet") + "</a></div>";
 					}
 					if (m["vname"]) {
 						html += "<div>Manufacturer: " + (m["vurl"] ? "<a href=\"" + m["vurl"] + "\">" : "") + m["vname"] + (m["vurl"] ? "</a>" : "") + "</div>";

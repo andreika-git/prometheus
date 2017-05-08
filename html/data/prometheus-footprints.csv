@@ -14,7 +14,7 @@
 "DPAK", "rect", "260mil", "410mil", "0mil", "50mil"
 "DRV8825_Module", "rect", "800mil", "98mil", "0mil", "260mil"
 "DRV8825_Module", "rect", "800mil", "98mil", "0mil", "-260mil"
-"HC-06", "rect", "505mil", "1058mil", "0mil", "150mil", "0", "img: http://i.ebayimg.com/thumbs/images/g/II8AAOSwKtlWqy09/s-l200.jpg"
+"HC-06", "rect", "505mil", "1058mil", "0mil", "150mil", "0", "img: https://raw.githubusercontent.com/andreika-git/prometheus/master/html/img/hc-06.jpg"
 "HDR1X1", "circle", "44mil", "0mil", "0mil", "0mil", "3"
 "HDR1X1-BIG2", "circle", "110mil", "0mil", "0mil", "0mil", "3", "addrem: 1"
 "HDR1x2", "rect", "198mil", "98mil", "0mil", "0mil", "3"
