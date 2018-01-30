@@ -103,7 +103,7 @@ Designator,Quantity,Comment,Footprint,Description,Fitted,Supplier 1,Supplier Par
 "R2, R23, R38, R43, R71, R89, R90, R91, R92, R97, R117, R119, R121, R124","14","68k","R0805","Resistor","","","","","","","Res"
 "R3, R65, R80, R81, R82, R84, R110, R111","8","510","R0805","Resistor","","","","","","","Res"
 "R4, R73, R93, R94, R95, R96, R120, R122, R125","9","1k","R1206","Resistor","","","","","","","Res"
-"R5","1","160","R0805","Resistor","","","","","","","Res"
+"R5","1","0","R0805","Resistor","","","","","","","Res"
 "R6, R13","2","100k","R0805","Resistor","","","","","","","Res"
 "R7, R9, R10, R17, R19, R21, R24, R26, R31, R37, R41, R42, R83, R102, R139, R140","16","10k","R0805","Resistor","","","","","","","Res"
 "R8","1","0","R0805","Resistor","","","","SD card EMI filtering resistor","","","Res"
