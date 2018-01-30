@@ -1,0 +1,12 @@
+Transistors quick reminder:
+Q1 - oxygen sensor heater (подогрев лямбды)
+Q2-Q5 - injectors (инжекторы)
+Q6 - main relay (главное реле)
+Q7 - output1 (выход1)
+Q8 - fuel pump (ЭБН)
+Q9 - output2 (выход2)
+Q10 - ECF (вентилятор)
+Q11 - checkengine
+Q12 - starter block (блокировка стартёра)
+Q13 - tachometer (тахометр) (MJD340)
+Q14 - for stepper motor driver (для драйвера шагового двигателя)

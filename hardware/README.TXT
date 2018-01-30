@@ -1,8 +1,8 @@
 
 *** Hardware Project "Prometheus" ***
 
-Revision 0.010 2017-04-07
-Copyright (c) 2017 andreika (prometheus.pcb@gmail.com)
+Revision 0.020 2018-01-30
+Copyright (c) 2017-2018 andreika (prometheus.pcb@gmail.com)
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 See LICENSE.TXT for details.

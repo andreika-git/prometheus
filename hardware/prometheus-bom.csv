@@ -5,7 +5,7 @@ C2;1;33n;C0805;Capacitor;;;;;
 C3;1;10n;C0805;Capacitor;;;Adjust to tune low-pass filtering;;
 C4;1;220p;C0805;Capacitor;;;;;
 C5, C34;2;1u;C0805;Capacitor;;;;;
-C6, C7, C9, C11, C13, C14, C17, C20, C29, C31, C37, C39, C40, C43, C48, C52, C53, C66, C71;19;100n;C0805;Capacitor;;;;;
+C7, C9, C11, C13, C14, C17, C20, C29, C31, C37, C39, C40, C43, C48, C52, C53, C66, C71;18;100n;C0805;Capacitor;;;;;
 C8, C24, C32, C36, C38, C49, C50, C51, C56, C60, C61;11;10n;C0805;Capacitor;;;;;
 C10, C25, C26, C54, C65, C67, C69, C70, C72;9;220n;C0805;Capacitor;;;;;
 C12, C19, C42, C57, C58, C59, C64, C73;8;2.2u;C0805;Capacitor;;;;;
@@ -34,21 +34,22 @@ D21;1;SMAJ22A;SMA;Transient Voltage Suppressor Diode;Digi-Key;SMAJ22A-FDICT-ND;;
 D27;1;SM2T3V3A;DO-216AA;Transient Voltage Suppressor Diode;Digi-Key;497-7878-1-ND;;$0.64;$0.64
 D28;1;BT;LED-SM1;Typical ORANGE 1206 LED;Digi-Key;754-1943-1-ND;Vf<3V, Bluetooth LED;$0.61;$0.61
 D29;1;SP0503BAHT;SOT-143;SMT TVS Avalanche Diode Array;Digi-Key;F2715CT-ND;;$0.88;$0.88
+D30;1;ESD5Z5;SOD-523;Transient Voltage Suppressor Diode;Digi-Key;ESD5Z5.0T1GOSCT-ND;;$0.29;$0.29
 J1;1;DM3AT-SF-PEJM5;CONN-MICROSD-PUSH-PUSH;Secure Digital Card Connector, SMT, 9p;Digi-Key;HR1964CT-ND;;$2.88;$2.88
 J7;1;USB-B;CONN-USB-B;USB Connector Type B;Digi-Key;ED2982-ND;;$0.58;$0.58
 L1, L2, L5;3;BLM21PG331;L2012;Chip Inductor;Digi-Key;490-5988-1-ND;;$0.12;$0.36
 L3, L4;2;CDRH104RNP-330;L-CDRH104R;Inductor with Ferrite Core;Digi-Key;308-1433-1-ND;;$1.67;$3.34
 P3;1;BS-5 (CR2032);BATTERY-HOLDER-2032-V;Battery Holder BS-5;Digi-Key;BS-5-ND;;$0.86;$0.86
-Q1, Q6, Q7, Q8, Q9, Q10, Q11, Q12;8;VND5N07;DPAK;OMNIFET Protected Power MOSFET;Digi-Key;497-2481-5-ND;Alternative: VND14NV04;$1.85;$14.80
-Q2, Q3, Q4, Q5;4;VND14NV04;DPAK;OMNIFET Protected Power MOSFET;Digi-Key;497-11687-1-ND;;$2.11;$8.44
+Q1, Q2, Q3, Q4, Q5;5;VND14NV04;DPAK;OMNIFET Protected Power MOSFET;Digi-Key;497-11687-1-ND;;$2.11;$10.55
+Q6, Q7, Q8, Q9, Q10, Q11, Q12;7;VND5N07;DPAK;OMNIFET Protected Power MOSFET;Digi-Key;497-2481-5-ND;Alternative: VND14NV04;$1.85;$12.95
 Q13;1;MJD340TF;DPAK;NPN General-purpose Transistor;Digi-Key;MJD340TFCT-ND;;$0.55;$0.55
 Q14;1;BC817;SOT-23;NPN General-purpose Transistor;Digi-Key;BC817-40LT3GOSCT-ND;;$0.12;$0.12
 Q15, Q16, Q17, Q18;4;BIP373;TO-220AB-2;Ignition Coil Protected Driver;Bosch;0271130115;Bosch 30115;$3.15;$12.60
 R1;1;1k;R0805;Resistor;;;Adjust to set LED brightness;;
 R2, R23, R38, R43, R71, R89, R90, R91, R92, R97, R117, R119, R121, R124;14;68k;R0805;Resistor;;;;;
-R3, R65, R80, R81, R84, R110, R111;7;510;R0805;Resistor;;;;;
+R3;1;220;R0805;Resistor;;;;;
 R4, R73, R93, R94, R95, R96, R120, R122, R125;9;1k;R1206;Resistor;;;;;
-R5;1;160;R0805;Resistor;;;;;
+R5;1;0;R0805;Resistor;;;;;
 R6, R13;2;100k;R0805;Resistor;;;;;
 R7, R9, R10, R17, R19, R21, R24, R26, R31, R37, R41, R42, R83, R102, R139, R140;16;10k;R0805;Resistor;;;;;
 R8;1;0;R0805;Resistor;;;SD card EMI filtering resistor;;
@@ -73,6 +74,7 @@ R50;1;0.1;R0805;Resistor;;;NetTie: Can be 0;;
 R51, R63, R67, R79, R85, R109;6;2.7k;R1206;Resistor;;;(optional pull-up);;
 R53, R55, R56;3;10k;R0805;Resistor;;;(optional);;
 R54;1;1M;R0805;Resistor;;;(optional for osc stability);;
+R65, R80, R81, R84, R110, R111;6;510;R0805;Resistor;;;;;
 R68;1;0;R0805;Resistor;;;"0 for 5.0V fixed regulator; 3.16k 1% for ADJ";;
 R70;1;1.02k;R0805;Resistor;;;1% (optional - only for ADJ regulator);;
 R75, R100, R131, R132;4;510k;R1206;Resistor;;;;;
@@ -94,14 +96,15 @@ R153;1;0;R1206;Resistor;;;NetTie or EMI filter;;
 R154, R162, R163;3;1k;R1206;Resistor;;;(optional pull-down);;
 R157, R158, R161;3;1k;R1206;Resistor;;;(optional pull-up);;
 R164;1;47;R0805;Resistor;;;;;
+R165;1;1k;R0805;Resistor;;;(optional);;
 U1;1;SN65HVD230D;SO8;3.3V CAN Transceiver with Standby Mode, 17 mA, -40 to 85 degC, 8-pin SOIC;Digi-Key;SN65HVD230D-ND;;$2.66;$2.66
 U2;1;CJ125;SOIC24;Lambda Probe Interface IC;Bosch;1267379259;Bosch 30481;$3.00;$3.00
 U3;1;TPIC8101;SOIC20;Engine Knock Signal Processor;Digi-Key;296-34575-5-ND;;$5.61;$5.61
 U4, U9;2;MCP6004T-I/ST;TSSOP14;1 MHz, Low-Power Op Amp;Digi-Key;MCP6004T-I/STCT-ND;;$0.45;$0.90
 U5;1;STM32F405RGT6;LQFP64;ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC;Digi-Key;497-11767-ND;(Optional, populate instead of U5_2 (F469));;
 U5_2;1;STM32F469VIT6;LQFP100;ARM Cortex-M4 32-bit MCU+FPU, 210 DMIPS, 1024 kB Flash, 192 kB RAM, 51 I/Os, 64-pin LQFP, -40 to 85 degC;Digi-Key;497-16782-ND;;$9.76;$9.76
-U6;1;NCV4274ADT33RKG;DPAK;Series of Micropower Voltage Regulators, 3-pin TO-252;Digi-Key;NCV4274ADT33RKGOSCT-ND;;$1.79;$1.79
-U7;1;NCV4274ADT50;TD03B_N;Series of Micropower Voltage Regulators, 3-pin TO-252;Digi-Key;NCV4274ADT50RKGOSCT-ND;(Optional, populate instead of U8);;
+U6;1;NCV4274ADT33;DPAK;Series of Micropower Voltage Regulators, 3-pin TO-252;Digi-Key;NCV4274ADT33RKGOSCT-ND;;$1.79;$1.79
+U7;1;NCV4274ADT50;DPAK;Series of Micropower Voltage Regulators, 3-pin TO-252;Digi-Key;NCV4274ADT50RKGOSCT-ND;(Optional, populate instead of U8);;
 U8;1;MIC4576-5.0;D2PAK-5;Step-Down Voltage Regulator, 3A, 200 kHz, 5-pin TO-263;Digi-Key;576-1800-5-ND;Alternatives: LM25x6-5.0/ADJ, MIC4576WU;$3.20;$3.20
 U10;1;DRV8825;HTSSOP28;Stepper Motor Controller IC;Digi-Key;296-29503-1-ND;;$3.93;$3.93
 U11;1;74HCT04;SOIC14;6 Hex Inverters;Digi-Key;296-1205-1-ND;;$0.48;$0.48
@@ -111,5 +114,5 @@ U14;1;ADUM1201ARZ;SO8;Dual Channel Digital Isolator, 2.5 KV rms Insulation Ratin
 U15;1;HC-06;HC-06;Bluetooth module;Olimex;BLUETOOTH-SERIAL-HC-06;;$2.70;$2.70
 Y1, Y2;2;ABM3B-8.0MHz;QUARTZ-ABM3B-HC49;Crystal Oscillator (SMD, TH);Digi-Key;535-9721-1-ND;ABM3B-8.000MHZ-10-1-U-T or HC-49;$0.69;$1.38
 ;;;;;;;;;
-;;;;;;;;$114.61;
+;;;;;;;;$116.24;
 ;;;;;;;;;
