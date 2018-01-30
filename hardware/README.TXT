@@ -1,6 +1,8 @@
 
 *** Hardware Project "Prometheus" ***
 
+See http://rusefi.com/forum/viewtopic.php?f=4&t=1215
+
 Revision 0.020 2018-01-30
 Copyright (c) 2017-2018 andreika (prometheus.pcb@gmail.com)
 

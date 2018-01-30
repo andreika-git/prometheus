@@ -3,6 +3,23 @@ These modifications are licensed under the TAPR Open Hardware License.
 
 -----BEGINING OF THE MODIFICATIONS-----
 
+	-2018/01/30 - andreika
+	Revision 0.020
+		+ resistor R13 (near CJ125) connected to pin 22 of U2, not to the ground
+		+ transistor Q1 (oxygen sensor heater) changed fro VND5 to VND14
+		+ resistor R3 (heater MOSFET gate) reduced to 220 Ohm
+		+ removed resistor R5 (changed to jumper wire) and capacitor C6
+		+ more wide traces for Wideband O2S heater power supply (near P2 connector)
+		+ power lines V12 and WV12 (WideBand) now separated
+		+ removed erroneous connection of CKPS2+ and R152 to the ground
+		+ increased clearance between capacitors C42 and C43
+		+ more wide power supply traces for MAX9926
+		+ added +5V TVS-diode for supply of MAX9926 (D30)
+		+ increased clearances for internal ign.coil ground planes, ign_gnd output moved away
+		+ removed connection traces of ign.ground and power ground inside PCB
+		+ additional pull-up resistor added for tachometer transistor to +5V (R165)
+
+
 	-2017/04/07 - andreika
 	First Revision 0.010
 	

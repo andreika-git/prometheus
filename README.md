@@ -1,10 +1,10 @@
 
 *** Hardware Project "Prometheus" ***
 
-See http://rusefi.com/forum/viewtopic.php?f=4&amp;t=1215
+See http://rusefi.com/forum/viewtopic.php?f=4&t=1215
 
-Revision 0.010 2017-04-07
-Copyright (c) 2017 andreika (prometheus.pcb@gmail.com)
+Revision 0.020 2018-01-30
+Copyright (c) 2017-2018 andreika (prometheus.pcb@gmail.com)
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 See LICENSE.TXT for details.
@@ -25,3 +25,6 @@ Author of the Prometheus project is not liable for any damage caused to you or y
 by using this documentation or any associated products.
 Whatever you do, you do at your own risk and on your own responsibility!
 Please be aware that it may affect your safety and the safety of others.
+
+
+
