@@ -6,7 +6,7 @@ These modifications are licensed under the TAPR Open Hardware License.
 	-2018/01/30 - andreika
 	Revision 0.020
 		+ resistor R13 (near CJ125) connected to pin 22 of U2, not to the ground
-		+ transistor Q1 (oxygen sensor heater) changed fro VND5 to VND14
+		+ transistor Q1 (oxygen sensor heater) changed from VND5 to VND14
 		+ resistor R3 (heater MOSFET gate) reduced to 220 Ohm
 		+ removed resistor R5 (changed to jumper wire) and capacitor C6
 		+ more wide traces for Wideband O2S heater power supply (near P2 connector)
